@@ -1,4 +1,17 @@
 {
   "name": "tsts",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts --fix",
+    "lint:nofix": "eslint src --ext .ts",
+    "start": "node ./build/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
 }
