@@ -3,20 +3,23 @@
   "packageManager": "yarn@3.1.1",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src --ext .ts --fix",
-    "lint:nofix": "eslint src --ext .ts",
+    "serve": "ts-node ./src",
     "start": "node ./build/index.js",
-    "test": "jest"
-  },
-  "dependencies": {
-    "typescript": "^4.5.5"
+    "test": "jest",
+    "lint": "eslint src --ext .ts --fix",
+    "lint:nofix": "eslint src --ext .ts"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.1",
+    "@types/node": "^17.0.17",
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "ts-node": "^10.5.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.5"
   }
 }
