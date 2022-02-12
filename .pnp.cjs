@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["eslint", "npm:8.8.0"],
             ["eslint-config-airbnb-base", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:15.0.0"],
+            ["eslint-import-resolver-node", "npm:0.3.6"],
             ["eslint-plugin-import", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:2.25.4"],
             ["ts-node", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:10.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
@@ -2189,6 +2190,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["eslint", "npm:8.8.0"],
             ["eslint-config-airbnb-base", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:15.0.0"],
+            ["eslint-import-resolver-node", "npm:0.3.6"],
             ["eslint-plugin-import", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:2.25.4"],
             ["ts-node", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:10.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
