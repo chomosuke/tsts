@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node16", "npm:1.0.2"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/node", "npm:17.0.17"],
+            ["@types/prettier", "npm:2.4.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["@typescript-eslint/parser", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["eslint", "npm:8.8.0"],
@@ -47,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.6"],
             ["eslint-plugin-import", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:2.25.4"],
             ["jest", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:27.5.1"],
+            ["prettier", "npm:2.5.1"],
             ["source-map-support", "npm:0.5.21"],
             ["ts-jest", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:27.1.3"],
             ["ts-morph", "npm:13.0.3"],
@@ -5475,6 +5477,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["prettier", [
+        ["npm:2.5.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.1-58b195b509-21b9408476.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.5.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["pretty-format", [
         ["npm:27.5.1", {
           "packageLocation": "./.yarn/cache/pretty-format-npm-27.5.1-cd7d49696f-cf610cffcb.zip/node_modules/pretty-format/",
@@ -6296,6 +6307,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node16", "npm:1.0.2"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/node", "npm:17.0.17"],
+            ["@types/prettier", "npm:2.4.4"],
             ["@typescript-eslint/eslint-plugin", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["@typescript-eslint/parser", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:5.11.0"],
             ["eslint", "npm:8.8.0"],
@@ -6304,6 +6316,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.6"],
             ["eslint-plugin-import", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:2.25.4"],
             ["jest", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:27.5.1"],
+            ["prettier", "npm:2.5.1"],
             ["source-map-support", "npm:0.5.21"],
             ["ts-jest", "virtual:0e91770afdd47b3b85b4f7b0e8883a2eb9f118f997d84560ee51e129e859430cc6bde79891121d3c926b0fb179e219f0778faf637ec020066a8567110ad71f8e#npm:27.1.3"],
             ["ts-morph", "npm:13.0.3"],

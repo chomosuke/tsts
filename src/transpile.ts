@@ -1,5 +1,5 @@
-import { Program } from 'typescript';
+import { Project } from 'ts-morph';
 
-export function transpile(input: Program): Program {
+export function transpile(input: Project): Project {
     throw new Error('Not Implemented');
 }
