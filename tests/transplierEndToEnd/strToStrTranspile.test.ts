@@ -4,7 +4,8 @@ import { File, strsToStrsTranspile } from './strToStrTranspile';
 
 jest.mock('../../src/transpile');
 
-const mockedTranspile = transpile as unknown as jest.Mock<(input: Project) => Project>;
+const mockedTranspile = transpile as unknown as
+    jest.Mock<(input: Project) => Project>;
 
 test('identity', () => {
     mockedTranspile.mockImplementation((project) => project);
