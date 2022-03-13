@@ -8,7 +8,7 @@ test('assertCodeEqual', () => {
             code: String.raw`
                 let a:any  = '1'
                 let b = a as string;
-                `,
+            `,
         },
     ];
     const expected: File[] = [
@@ -16,7 +16,7 @@ test('assertCodeEqual', () => {
             path: 'index.ts',
             code: String.raw`
                 let a: any = '1';let b=a as string;
-                `,
+            `,
         },
     ];
     assertCodeEqual(
