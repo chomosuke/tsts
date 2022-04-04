@@ -6,8 +6,7 @@
         "build": "tsc",
         "start": "node ./build/index.js",
         "test": "jest ./tests --passWithNoTests",
-        "lint": "eslint . --ext .ts --fix",
-        "lint:nofix": "eslint . --ext .ts"
+        "lint": "eslint . --ext .ts"
     },
     "devDependencies": {
         "@jest/types": "^27.5.1",
