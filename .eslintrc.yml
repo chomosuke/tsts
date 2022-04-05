@@ -8,3 +8,11 @@ parserOptions:
   project: 'tsconfig.eslint.json'
 plugins:
   - '@typescript-eslint'
+overrides:
+  - files:
+      - '**/*.test.ts'
+    env:
+      jest: true
+    extends: 'chomosuke/jest'
+    plugins:
+      - jest

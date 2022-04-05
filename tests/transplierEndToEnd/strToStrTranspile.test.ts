@@ -4,8 +4,8 @@ import { File, strsToStrsTranspile } from './strToStrTranspile';
 
 jest.mock('../../src/transpile');
 
-const mockedTranspile = transpile as unknown as
-    jest.Mock<(input: Project) => Project>;
+// eslint-disable-next-line no-restricted-syntax
+const mockedTranspile = transpile as jest.Mock<Project, [Project]>;
 
 test('identity', () => {
     mockedTranspile.mockImplementation((project) => project);

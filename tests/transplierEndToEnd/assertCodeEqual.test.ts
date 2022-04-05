@@ -1,4 +1,4 @@
-import { assertCodeEqual } from './assertCodeEqual';
+import { formatFiles } from './assertCodeEqual';
 import { File } from './strToStrTranspile';
 
 test('assertCodeEqual', () => {
@@ -19,8 +19,6 @@ test('assertCodeEqual', () => {
             `,
         },
     ];
-    assertCodeEqual(
-        actual,
-        expected,
-    );
+
+    expect(formatFiles(actual)).toStrictEqual(formatFiles(expected));
 });
