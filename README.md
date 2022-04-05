@@ -9,7 +9,8 @@ This package aim to deliver production ready type safety to new and existing pro
 - If the type is asserted to a function, wrap it and monitor its return type.
 
 #### Secondary goal
-- Have as little overhead as possible.
+- In production mode, have as little runtime overhead as possible.
+- In development mode, have as little build time overhead as possible.
 
 ### What does it not do
 - It does not try to prevent any third party library from returning type at runtime that doesn't match its `.d.ts` files
